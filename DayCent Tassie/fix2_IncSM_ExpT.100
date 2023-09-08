@@ -1,0 +1,62 @@
+X     Fixed_values_DayCent_Mic
+0.5               CUESOM1(1)
+0.25              CUESOM1(2)
+5000.000          EA(1)
+30000.00          EA(2)
+3000.000          EA(3)
+0.040             EXUDNPPF(1)
+0.000             EXUDNPPF(2)
+0.000             EXUDNPPF(3)
+0.0100            FWMIN
+2.5               GASDIFEXP
+1.0               IDEF(2)
+2.0               IDEF(3)
+0.001             KM(1)  # metabolic
+0.002             KM(2)  # structural
+0.001             KM(3)  # som1
+0.01              KM(4)  # som2
+0.01              KM(5)  # som3
+0.01              KM(6)  # wood1
+0.01              KM(7)  # wood2
+0.01              KM(8)  # wood3
+0.001             MINMICF(1)
+0.001             MINMICF(2)
+12.0              TMIC(1)
+4.0               TMIC(2)
+293.15            TREF
+15.00000          VARATM1(1,1)
+6.00000           VARATM1(2,1)   
+1.00000           VARATM1(3,1)
+150.0000          VARATM1(1,2)
+30.00000          VARATM1(2,2)
+2.00000           VARATM1(3,2)
+200.0000          VARATM1(1,3)
+50.00000          VARATM1(2,3)
+2.00000           VARATM1(3,3)
+14.00000          VARATM2(1,1)
+6.00000           VARATM2(2,1)  
+2.00000           VARATM2(3,1)
+150.0000          VARATM2(1,2)
+30.00000          VARATM2(2,2)
+2.00000           VARATM2(3,2)
+200.0000          VARATM2(1,3)
+50.00000          VARATM2(2,3)
+2.00000           VARATM2(3,3) # Increase all the VAXREF parameters by 18% (6/9/2021), +40% (6/11/2021)
+28.0              VMAXREF(1,1) # metab(SRFC) see DEC2(1) in fix.100 (20.0 -> 23.6)
+42.0              VMAXREF(1,2) # metab(SOIL) see DEC2(2) in fix.100 (30.0 -> )
+12.6              VMAXREF(2,1) # struc(SRFC) see DEC1(1) in fix.100 (6.0 -> 7.08)
+8.4               VMAXREF(2,2) # struc(SOIL) see DEC1(2) in fix.100 (9.0 -> 10.62)
+12.6              VMAXREF(3,1) # som1(SRFC) see DEC3(1) in fix.100 (6.0 -> 7.08)
+10.22             VMAXREF(3,2) # som1(SOIL) see DEC3(2) in fix.100 (7.3 -> 8.614)
+0.28              VMAXREF(4,1) # som2(SRFC) see DEC5(1) in fix.100 (0.20 -> 0.236)
+0.35              VMAXREF(4,2) # som2(SOIL) see DEC5(2) in fix.100 (0.25 -> 0.295 )
+0.0040            VMAXREF(5)   # som3(SOIL only) see DEC4 in fix.100 (0.0025 -> 0.00295)
+0.0               CLCHMETB(1)
+0.0               CLCHMETB(2)
+0.0               CLCHSTRC(1)
+0.0               CLCHSTRC(2)
+0.0               CLCHSOM1(1)
+0.0               CLCHSOM1(2)
+0.0               CLCHSOM2(1)
+0.0               CLCHSOM2(2)
+0.0               CLCHSOM3
